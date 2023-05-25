@@ -7,10 +7,49 @@ Version: 1.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
+== Description ==
+
 Restaurant PT WordPress Theme is a brand new , one page ,simple theme for restaurants and restaurant owners. You can showcase your daily menus and have a lot of extra functionality.
 
-== Description ==
-Restaurant PT WordPress Theme is a brand new , one page ,simple theme for restaurants and restaurant owners. You can showcase your daily menus and have a lot of extra functionality.
+== Changelog ==
+
+= 1.2 =
+* TGM-Plugin-Activation class updated - CHANGED
+* XSS vulnerability fix - SECURITY
+
+= 1.1.1 =
+* Minor fixes
+
+= 1.1.0 =
+* Reduced content creation
+* Improved customizer settings.
+
+= 1.0.9 =
+* Fixed Theme Uri
+* Fixed login errors in CSS.
+
+= 1.0.7 =
+* Minor fixes
+
+= 1.0.6 =
+* Prefixing
+
+= 1.0.5 =
+* Text domain changes
+
+= 1.0.4 =
+* Minor Fixes
+
+= 1.0.3 =
+* Extra Bugs corrected.
+
+= 1.0.1 =
+* Deprecated tags removed from the styles.css
+* Featured image function escaped correctly
+* A lot of small bug fixes
+
+= 1.0.0 =
+* Initial Release
 
 == Copyright ==
 
@@ -56,8 +95,7 @@ All the images listed below are licensed under the CC0 licence and the screensho
 All other resources and theme elements are licensed under the [GNU GPL](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html), version 2 or later.
 
 = Theme Features Usage =
-All available options can be used from Appearance->Customize
-Theme supports no more than three levels deep navigation.
+All available options can be used from Appearance->Customize Theme supports no more than three levels deep navigation.
 
 == TRANSLATIONS ==
 
@@ -66,43 +104,3 @@ There is a language folder within the theme directory and it contains the "resta
 == EXTRAS ==
 
 Twitter Bootstrap customize ID : http://getbootstrap.com/customize/?id=773f7ea5ed6980eb2414
-
-== Changelog ==
-
-= 1.2 =
-* TGM-Plugin-Activation class updated - CHANGED
-* XSS vulnerability fix - SECURITY
-
-= 1.1.1 =
-* Minor fixes
-
-= 1.1.0 =
-* Reduced content creation
-* Improved customizer settings.
-
-= 1.0.9 =
-* Fixed Theme Uri
-* Fixed login errors in CSS.
-
-= 1.0.7 =
-* Minor fixes
-
-= 1.0.6 =
-* Prefixing
-
-= 1.0.5 =
-* Text domain changes
-
-= 1.0.4 =
-* Minor Fixes
-
-= 1.0.3 =
-* Extra Bugs corrected.
-
-= 1.0.1 =
-* Deprecated tags removed from the styles.css
-* Featured image function escaped correctly
-* A lot of small bug fixes
-
-= 1.0.0 =
-* Initial Release
