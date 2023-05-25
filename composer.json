@@ -1,0 +1,23 @@
+{
+	"name": "ayecode/restaurant-pt",
+	"type": "project",
+	"description": "Restaurant PT wordPress theme.",
+	"keywords": [
+		"theme",
+		"restaurant-pt"
+	],
+	"homepage": "https://ayecode.io/",
+	"license": "GPL-3.0-or-later",
+	"authors": [
+		{
+			"name": "AyeCode Ltd",
+			"email": "contact@ayecode.io",
+			"homepage": "https://ayecode.io/",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"php": ">=5.4.0"
+	},
+	"minimum-stability": "dev"
+}
