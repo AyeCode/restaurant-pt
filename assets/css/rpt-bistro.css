@@ -1,0 +1,331 @@
+/*
+* The italian skin CSS
+*/
+body {
+    word-wrap: break-word;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: #ffffff;
+    min-height: 20vh;
+    font-family: "Lora Regular", sans-serif;
+    color:#505050;
+
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1 .h2 .h3 .h4 .h5 .h6 {
+    font-family: "Montserrat Regular", sans-serif;
+    margin: 25px 0;
+    font-weight: 800;
+
+}
+/**********************
+Navigation
+***********************/
+#rpt-header{
+    background:#111111;
+}
+#rpt-main-navigation ul a
+{
+    font-family: "Montserrat SemiBold",sans-serif;
+}
+
+#rpt-header.rpt-header {
+    position: absolute;
+    background: transparent;
+    width: 100%;
+}
+#rpt-main-navigation ul ul.sub-menu{
+    background:#111111;
+    border:none;
+}
+
+.rpt-header #rpt-main-navigation ul ul.sub-menu {
+    background: rgba(0, 0, 0, 0.4);
+    border:none;
+}
+
+/**
+*
+* Footer - Above Copyright
+*/
+#rpt-footer-area {
+    background: #111111;
+    color: #ffffff;
+}
+/** Single Menu **/
+
+.rpt-menu-image-area{
+    padding:0;
+}
+.rpt-menu-items-area{
+    background:#ffffff;
+    color:#111111;
+    padding:20px 30px;
+    overflow:hidden;
+}
+.rpt-menu-items-area.dark{
+    background:#111111;
+    color:#ffffff;
+}
+.rpt-menu-items-area h3{
+    font-size:26px;
+    text-align: center;
+    padding:15px 0;
+    margin-bottom:40px;
+    border-bottom:1px dotted rgba(50,50,50,0.3);
+}
+
+.rpt-menu-items-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.rpt-menu-items-list > li {
+
+    margin: 0 0 13px 0;
+    padding-bottom: 10px;
+}
+.rpt-list-menu-item{
+    padding: 0 0 8px 0;
+    margin:0 0 8px 0;
+    border-bottom:1px dotted rgba(50,50,50,0.3);
+}
+.rpt-list-menu-item h4 {
+    margin: 0;
+}
+
+.rpt-list-menu-item .price {
+    color: #cab479;
+    font-weight: 100;
+}
+
+.rpt-list-menu-item-details{
+    font-size:14px;
+    font-family: "Lato Regular",sans-serif;
+    color:#818181;
+}
+.blog-item{
+    margin-bottom:35px;
+}
+.blog-item-title > h2 a{
+    color:#cab479;
+}
+.blog-item-title > h2 a:hover{
+    color:#111111;
+}
+.blog-item-meta{
+    margin-bottom:10px;
+    color:#111111;
+}
+.post-categories,
+.by-author{
+    margin-right:20px;
+}
+.blog-item-featured-image{
+    margin:20px 0;
+    position:relative;
+}
+.rpt.blog-item-time{
+    position:absolute;
+    left:0;
+    bottom:0;
+}
+
+.rpt.blog-item-time > .blog-item-date{
+    background:#cab479;
+    color:#ffffff;
+    padding:7px 10px;
+    font-weight:800;
+    margin-bottom:8px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.rpt.blog-item-time > .blog-item-date span{
+    display: block;
+}
+.rpt.blog-item-time > .blog-item-date span:first-child{
+    border-bottom:1px solid #ffffff;
+    margin-bottom:5px;
+}
+.rpt.blog-item-time > .blog-item-year{
+    background:#111111;
+    color:#ffffff;
+    padding:3px 10px;
+    font-weight:800;
+}
+.blog-item-content{
+    margin-bottom:15px;
+}
+.blog-item-read-more{
+    border:2px solid #cab479;
+    color:#cab479;
+    font-family: "Lato SemiBold",sans-serif;
+    padding:7px 21px;
+}
+.blog-item-read-more:hover{
+    background:#cab479;
+    border:2px solid #ffffff;
+    color:#ffffff;
+    padding:13px 21px !important;
+}
+/***
+*
+* Widgets
+*/
+.widget{
+    padding:25px;
+    border:1px solid #e4e4e4;
+    margin:0 0 33px 0;
+    font-size:16px;
+    font-family:"Lora Regular",sans-serif;
+}
+h3.widget-title {
+    font-family: "Montserrat Regular",sans-serif !important;
+    color:#111111;
+    font-weight: 800;
+}
+.widget ul,
+.widget ol{
+    padding-top:0;
+    padding-bottom:0;
+    padding-left:inherit;
+    padding-right:inherit;
+}
+.widget ul li:first-child{
+    border-top:none;
+}
+.widget ul li ul li:first-child{
+    border-top:none;
+}
+.widget ul li{
+    padding:8px 0;
+    border-bottom: none;
+}
+.widget ul li:before{
+    font-family: 'FontAwesome';
+    content: '\f0da';
+    margin:0 8px 0 -25px;
+    color: #cab479;
+}
+.widget ul li a:hover{
+    color:#cab479;
+}
+.widget_search form .input-group input{
+    font-family: "Lato Light",sans-serif;
+    background: #ffffff;
+    border:1px solid #e4e4e4 !important;
+}
+.widget_search form .input-group button{
+    background:#cab479;
+    color:#ffffff;
+    border:1px solid #e4e4e4 !important;;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    margin-top:0;
+}
+.widget_search form .input-group button:hover{
+    color:#333333;
+}
+
+.widget_archive ul li,
+.widget_categories ul li {
+    color:#cab479;
+}
+.widget_calendar caption{
+    background: #cab479;
+    font-family: "Montserrat Regular",sans-serif;
+    color:#ffffff;
+    font-weight:800;
+    font-size:18px;
+    margin-bottom:15px;
+}
+.widget_calendar table{
+    width:100%;
+    border: none;
+}
+.widget_calendar thead{
+    background:#ffffff;
+    text-transform: uppercase;
+}
+.widget_calendar thead tr th{
+    color:#111111;
+    border:none;
+}
+.widget_calendar tbody{
+    background:#ffffff;
+    color:#505050;
+}
+.widget_calendar tbody tr#today,
+.widget_calendar tbody tr td a{
+    border:3px solid #cab479;
+    padding:5px 10px !important;
+}
+.tagcloud a{
+    font-size:14px !important;
+    background: #cab479;
+    padding:5px 15px;
+    color:#ffffff;
+    margin:2px 0;
+    display:inline-block;
+}
+
+.tagcloud a:hover{
+    color:#000000;
+    background:#cab479;
+}
+
+/***
+*
+* Bottom Navigation
+*/
+
+#rpt-bottom-navigation ul {
+    list-style-type: none;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom:40px;
+}
+
+#rpt-bottom-navigation ul li {
+    display: inline-block;
+    margin: 0 30px 0 30px;
+}
+
+#rpt-bottom-navigation ul li:first-child {
+    margin-left: 0;
+}
+
+#rpt-bottom-navigation ul li a {
+    color: #ffffff;
+}
+
+#rpt-bottom-navigation ul li a:hover {
+    color: #cab479;
+}
+
+.footerwidget h3{
+    color:#ffffff;
+}
+/**
+* Copyright
+*/
+#rpt-copyright {
+    background: #111111;
+    color: #303030;
+    font-family: "Montserrat Light", serif;
+    font-size: 12px;
+}
+
+#rpt-copyright a:hover {
+    color: #cab479;
+}
+#footer-address{
+    text-align:center;
+    padding:20px;
+    background:#111111;
+    color:#fafafa;
+    font-family:'Montserrat Light',sans-serif;
+    font-size:14px;
+}
